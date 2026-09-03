@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GEO-оптимизация | Продвижение бизнеса в нейросетях</title>
+    <style>
+        :root {
+            --primary: #4F46E5;
+            --primary-hover: #4338CA;
+            --bg-dark: #0F172A;
+            --card-bg: #1E293B;
+            --text-light: #F8FAFC;
+            --text-muted: #94A3B8;
+            --accent: #10B981;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+        body { background-color: var(--bg-dark); color: var(--text-light); line-height: 1.6; }
+        
+        container { max-width: 1100px; margin: 0 auto; padding: 0 20px; }
+        header { padding: 20px 0; border-bottom: 1px solid #334155; }
+        .nav { display: flex; justify-content: space-between; align-items: center; }
+        .logo { font-size: 1.5rem; font-weight: bold; color: var(--text-light); }
+        .logo span { color: var(--primary); }
+
+        .hero { padding: 80px 0; text-align: center; }
+        .hero h1 { font-size: 2.8rem; margin-bottom: 20px; font-weight: 800; }
+        .hero h1 span { color: var(--primary); }
+        .hero p { font-size: 1.25rem; color: var(--text-muted); max-width: 750px; margin: 0 auto 30px; }
+        
+        .btn { display: inline-block; background-color: var(--primary); color: white; padding: 15px 32px; border-radius: 8px; text-decoration: none; font-weight: 600; transition: 0.3s; border: none; cursor: pointer; }
+        .btn:hover { background-color: var(--primary-hover); }
+
+        .segment-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 30px; margin: 60px 0; }
+        .card { background: var(--card-bg); padding: 35px; border-radius: 12px; border: 1px solid #334155; }
+        .card h3 { font-size: 1.5rem; margin-bottom: 15px; color: var(--accent); }
+        .card ul { list-style: none; margin-top: 15px; }
+        .card ul li { margin-bottom: 10px; color: var(--text-muted); }
+
+        .steps { padding: 60px 0; background: #182234; border-radius: 16px; margin: 40px 0; }
+        .steps h2 { text-align: center; margin-bottom: 40px; }
+        .steps-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 20px; padding: 0 20px; }
+        .step-item { background: var(--card-bg); padding: 20px; border-radius: 8px; text-align: center; }
+        .step-number { font-size: 1.8rem; font-weight: bold; color: var(--primary); margin-bottom: 10px; }
+
+        .cta-section { padding: 60px 0; text-align: center; }
+        .form-box { background: var(--card-bg); max-width: 500px; margin: 30px auto 0; padding: 30px; border-radius: 12px; border: 1px solid #334155; }
+        .form-box input { width: 100%; padding: 12px; margin-bottom: 15px; border-radius: 6px; border: 1px solid #334155; background: #0F172A; color: white; }
+
+        footer { text-align: center; padding: 30px 0; border-top: 1px solid #334155; color: var(--text-muted); font-size: 0.9rem; }
+
+        @media (max-width: 768px) {
+            .hero h1 { font-size: 2rem; }
+            .segment-grid { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="container nav">
+            <div class="logo">GEO<span>AI</span> Studio</div>
+            <a href="#audit" class="btn" style="padding: 10px 20px;">Заказать аудит</a>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h1>Ваши клиенты уже ищут решения через <span>ИИ-системы</span></h1>
+            <p>Продвигаем B2B и B2C компании в рекомендациях ChatGPT, Perplexity, Claude и Яндекс Нейро. Будьте первыми там, где формируется спрос нового поколения.</p>
+            <a href="#audit" class="btn">Проверить видимость своего бизнеса</a>
+        </div>
+    </section>
+
+    <section class="container">
+        <div class="segment-grid">
+            <div class="card">
+                <h3>Для B2B компаний</h3>
+                <p>Инженеры, проектировщики и закупщики используют ИИ для составления ТЗ и поиска поставщиков до объявления тендера.</p>
+                <ul>
+                    <li>✓ Попадание в списки рекомендуемых вендоров</li>
+                    <li>✓ Первенство при формировании ТЗ и Long-lists</li>
+                    <li>✓ Рост прямых обращений от ЛПР</li>
+                </ul>
+            </div>
+            <div class="card">
+                <h3>Для B2C брендов и услуг</h3>
+                <p>Покупатели просят нейросети подобрать лучшие товары, услуги или сервисы под их конкретную задачу.</p>
+                <ul>
+                    <li>✓ Вывод бренда на 1–2 место в ответах ИИ</li>
+                    <li>✓ Прямые переходы на ваш сайт из сносок нейросетей</li>
+                    <li>✓ Защита от увода трафика к сторонним дилерам</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="container steps">
+        <h2>Как мы работаем</h2>
+        <div class="steps-grid">
+            <div class="step-item">
+                <div class="step-number">01</div>
+                <h4>Аудит в 4 нейросетях</h4>
+                <p style="font-size: 0.9rem; color: #94A3B8; margin-top: 8px;">Проверяем выдачу вашего бренда по целевым запросам.</p>
+            </div>
+            <div class="step-item">
+                <div class="step-number">02</div>
+                <h4>Тех-оптимизация</h4>
+                <p style="font-size: 0.9rem; color: #94A3B8; margin-top: 8px;">Настраиваем Schema.org и доступ для ИИ-краулеров.</p>
+            </div>
+            <div class="step-item">
+                <div class="step-number">03</div>
+                <h4>Direct Answers</h4>
+                <p style="font-size: 0.9rem; color: #94A3B8; margin-top: 8px;">Перерабатываем контент под стандарты считывания LLM.</p>
+            </div>
+            <div class="step-item">
+                <div class="step-number">04</div>
+                <h4>Рост и отчётность</h4>
+                <p style="font-size: 0.9rem; color: #94A3B8; margin-top: 8px;">Фиксируем появление бренда в ответах ИИ и рост лидов.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="container cta-section" id="audit">
+        <h2>Получите бесплатный экспресс-аудит</h2>
+        <p style="color: var(--text-muted); margin-top: 10px;">Мы проверим, знает ли ИИ вашу компанию, и пришлём разбор с рекомендациями.</p>
+        
+        <div class="form-box">
+            <form id="leadForm">
+                <input type="text" placeholder="Ваше имя" required>
+                <input type="url" placeholder="Ссылка на ваш сайт (https://...)" required>
+                <input type="text" placeholder="Телефон или Telegram для связи" required>
+                <button type="submit" class="btn" style="width: 100%;">Заказать аудит</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>© 2026 GEOAI Studio. Адаптация и продвижение бизнеса в нейросетях.</p>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('leadForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            alert('Спасибо за заявку! Мы проведём экспресс-аудит вашего сайта и свяжемся с вами в течение дня.');
+            this.reset();
+        });
+    </script>
+</body>
+</html>

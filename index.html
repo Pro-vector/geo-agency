@@ -127,13 +127,17 @@
         <p style="color: var(--text-muted); margin-top: 10px;">Мы проверим, знает ли ИИ вашу компанию, и пришлём разбор с рекомендациями</p>
         
         <div class="form-box">
-            <form action="https://api.web3forms.com/submit" method="POST">
-                <input type="hidden" name="access_key" value="8172027c-48b3-4588-8885-191021a741c7">
-                <input type="text" name="name" placeholder="Ваше имя" required>
-                <input type="text" name="website" placeholder="Сайт компании (например: mysite.ru)" required>
-                <input type="text" name="contact" placeholder="Телефон или Telegram для связи" required>
-                <button type="submit" class="btn" style="width: 100%;">Заказать аудит</button>
-            </form>
+           <form action="https://api.web3forms.com/submit" method="POST">
+    <input type="hidden" name="access_key" value="8172027c-48b3-4588-8885-191021a741c7">
+    <input type="text" name="name" placeholder="Ваше имя" required>
+    <input type="text" name="website" placeholder="Сайт компании (например: mysite.ru)" required>
+    <input type="text" name="contact" placeholder="Телефон или Telegram для связи" required>
+    <button type="submit" class="btn" style="width: 100%;">Заказать контроль</button>
+    <p style="font-size: 11px; color: #888; margin-top: 10px; text-align: center;">
+        Нажимая кнопку, вы даете согласие на обработку персональных данных в соответствии с 
+        <a href="/privacy.html" target="_blank" style="color: #888; text-decoration: underline;">Политикой конфиденциальности</a>.
+    </p>
+</form>
         </div>
     </section>
 
